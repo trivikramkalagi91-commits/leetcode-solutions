@@ -9,7 +9,7 @@
 
 ## 📌 Overview
 
-This repository serves as a version-controlled portfolio log of solved LeetCode problems spanning core data structures and algorithmic paradigms, including Arrays, Strings, Searching, Stacks, and Linked Lists.
+This repository serves as a version-controlled portfolio log of solved LeetCode problems spanning core data structures and algorithmic paradigms, including Arrays, Strings, Searching, and Linked Lists.
 
 Every problem in this repository follows a strict **Portfolio-Quality Standard**:
 1. **Local Test Suite:** Written and tested locally in C++ with at least two test cases (standard input and edge cases like empty arrays, single elements, or duplicates) prior to submission.
@@ -40,17 +40,10 @@ Every problem in this repository follows a strict **Portfolio-Quality Standard**
 
 ---
 
-### 3. 🥞 [Stacks](stacks/)
+### 3. 🔗 [Linked Lists](linked-lists/)
 | # | Problem | Difficulty | Code | Documentation | Result |
 | :-: | :--- | :-: | :-: | :-: | :-: |
-| 08 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy–Medium | [08-valid-parentheses.cpp](stacks/08-valid-parentheses.cpp) | [08-valid-parentheses.md](stacks/08-valid-parentheses.md) | [Screenshot](stacks/08-result.png) |
-
----
-
-### 4. 🔗 [Linked Lists](linked-lists/)
-| # | Problem | Difficulty | Code | Documentation | Result |
-| :-: | :--- | :-: | :-: | :-: | :-: |
-| 09 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (Bonus) | Easy–Medium | [09-reverse-linked-list.cpp](linked-lists/09-reverse-linked-list.cpp) | [09-reverse-linked-list.md](linked-lists/09-reverse-linked-list.md) | [Screenshot](linked-lists/09-result.png) |
+| 08 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy–Medium | [08-reverse-linked-list.cpp](linked-lists/08-reverse-linked-list.cpp) | [08-reverse-linked-list.md](linked-lists/08-reverse-linked-list.md) | [Screenshot](linked-lists/08-result.png) |
 
 ---
 
@@ -70,9 +63,9 @@ g++ -std=c++17 arrays-strings/01-two-sum.cpp -o test
 
 ## 📈 Activity Deliverables Checklist
 
-- [x] Correct repository structure (`arrays-strings/`, `basic-algorithms/`, `stacks/`, `linked-lists/`)
+- [x] Correct repository structure (`arrays-strings/`, `basic-algorithms/`, `linked-lists/`)
 - [x] Root `README.md` with student metadata & table of contents
-- [x] Solved 8+ curated problems with clean C++ code
+- [x] Solved 8 curated problems with clean C++ code
 - [x] Local test harnesses (standard + edge cases) in each `.cpp` file
 - [x] Detailed per-problem documentation (`.md`) with approach & complexity
 - [x] Updated [PROGRESS.md](PROGRESS.md) growth tracker table
