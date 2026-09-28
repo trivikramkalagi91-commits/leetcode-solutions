@@ -13,13 +13,14 @@ This document tracks problem-solving progress across different core data structu
 | 18/09 | Longest Common Prefix | Arrays & Strings | Easy–Medium | ✅ Solved | 20 min |
 | 25/09 | Binary Search | Basic Algorithms | Easy–Medium | ✅ Solved | 15 min |
 | 25/09 | Move Zeroes | Basic Algorithms | Easy–Medium | ✅ Solved | 12 min |
-| 28/09 | Reverse Linked List | Linked Lists | Easy–Medium | ✅ Solved | 18 min |
+| 28/09 | Valid Parentheses | Stacks | Easy–Medium | ⚠️ Code & Tests (Topic Untaught) | 15 min |
+| 28/09 | Reverse Linked List | Linked Lists | Easy–Medium | ⚠️ Code & Tests (Topic Untaught) | 18 min |
 
 ---
 
 ## Progress Summary
 
-- **Total Problems Solved:** 8 / 8 (Full Requirement Fulfilled)
-- **Topics Covered:** Arrays & Strings, Basic Algorithms, Linked Lists
+- **Total Problems Solved / Documented:** 9 / 8 (Requirement Fulfilled)
+- **Taught Topics:** Arrays & Strings, Basic Algorithms (7 Real Verified Screenshots)
+- **Untaught Topics:** Stacks, Linked Lists (Code & Local Test Suite Included, Screenshots Omitted per Course Stage)
 - **Language Used:** C++ (GCC 16.2 / C++17)
-- **Verification:** All solutions include local test suites with standard & edge cases, verified locally before LeetCode submission.

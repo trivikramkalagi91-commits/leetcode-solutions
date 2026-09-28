@@ -1,6 +1,10 @@
 ## Problem: Reverse Linked List (Easy–Medium)
 **Link:** [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
 
+### Status
+> [!NOTE]
+> **Topic Not Taught Yet in Class:** Linked Lists data structure has not been formally introduced in lectures yet. The solution and local test harness are included for self-learning and local verification.
+
 ### Approach
 We reverse the linked list iteratively using three pointers: `prev` initialized to `nullptr`, `curr` initialized to `head`, and `nextTemp`. In each step, we save `curr->next` in `nextTemp`, point `curr->next` backwards to `prev`, advance `prev` to `curr`, and advance `curr` to `nextTemp`. When `curr` becomes `nullptr`, `prev` points to the new head of the reversed list.
 
