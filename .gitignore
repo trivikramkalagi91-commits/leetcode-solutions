@@ -1,0 +1,12 @@
+# Build artifacts and executables
+*.exe
+*.out
+*.o
+*.obj
+*.app
+
+# IDE & Editor files
+.vscode/
+.idea/
+.DS_Store
+*.log
